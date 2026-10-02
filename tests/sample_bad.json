@@ -1,0 +1,65 @@
+{
+  "foundation": {
+    "product_marketing_md_exists": false,
+    "target_queries_defined": false
+  },
+  "channel_map": {
+    "rows": [
+      {
+        "channel": "DeepSeek",
+        "status": "measured",
+        "structure_pref": "DeepSeek 偏好 FAQ 块结构，引用密度高",
+        "evidence_path": "",
+        "date": ""
+      },
+      {
+        "channel": "豆包",
+        "status": "measured",
+        "structure_pref": "豆包偏长文+小标题，实体密度敏感",
+        "evidence_path": "",
+        "date": ""
+      },
+      {
+        "channel": "百度 AI",
+        "status": "实测中",
+        "structure_pref": "百度 AI 好像偏列表",
+        "evidence_path": "",
+        "date": ""
+      },
+      {"channel": "元宝", "status": "pending", "structure_pref": "待测", "evidence_path": "", "date": ""},
+      {"channel": "微信搜一搜", "status": "pending", "structure_pref": "待测", "evidence_path": "", "date": ""}
+    ],
+    "initial_all_pending": false,
+    "no_unmeasured_as_fact": false
+  },
+  "measurement": {
+    "question_set_fixed": false,
+    "question_categories_covered": ["品类", "场景", "长尾"],
+    "runs_per_question": 1,
+    "channels_measured": ["DeepSeek", "豆包"],
+    "evidence_complete": false
+  },
+  "baseline": {
+    "baseline_before_optimization": false,
+    "channels_in_baseline": 0,
+    "appearance_rate_recorded": false
+  },
+  "optimization": {
+    "based_on_measured_only": false,
+    "mechanism_vs_channel_separated": false,
+    "actions_count": 5
+  },
+  "veto": {
+    "config_path": "",
+    "in_machine_readable_config": false,
+    "entries": 2,
+    "all_decidable": false,
+    "all_have_basis": false
+  },
+  "retest": {
+    "same_question_set": false,
+    "interval_weeks": 1,
+    "evidence_archived": false,
+    "decline_attributed": false
+  }
+}

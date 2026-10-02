@@ -1,0 +1,55 @@
+{
+  "foundation": {
+    "product_marketing_md_exists": true,
+    "target_queries_defined": true
+  },
+  "channel_map": {
+    "rows": [
+      {
+        "channel": "DeepSeek",
+        "status": "measured",
+        "structure_pref": "2026-10-05 测量 30 次回答中引用片段结构：FAQ 块 12 次/小标题+短段 9 次/列表 6 次/长文 3 次/表格 0 次（留档 .agents/ai-seo-cn-evidence/deepseek/2026-10-05/）",
+        "evidence_path": ".agents/ai-seo-cn-evidence/deepseek/2026-10-05/",
+        "date": "2026-10-05"
+      },
+      {"channel": "豆包", "status": "pending", "structure_pref": "待测", "evidence_path": "", "date": ""},
+      {"channel": "百度 AI", "status": "pending", "structure_pref": "待测", "evidence_path": "", "date": ""},
+      {"channel": "元宝", "status": "pending", "structure_pref": "待测", "evidence_path": "", "date": ""},
+      {"channel": "微信搜一搜", "status": "pending", "structure_pref": "待测", "evidence_path": "", "date": ""},
+      {"channel": "ChatGPT(中文提问)", "status": "pending", "structure_pref": "待测", "evidence_path": "", "date": ""},
+      {"channel": "Perplexity(中文提问)", "status": "pending", "structure_pref": "待测", "evidence_path": "", "date": ""}
+    ],
+    "initial_all_pending": true,
+    "no_unmeasured_as_fact": true
+  },
+  "measurement": {
+    "question_set_fixed": true,
+    "question_categories_covered": ["品类", "对比", "场景", "竞品", "长尾"],
+    "runs_per_question": 5,
+    "channels_measured": ["DeepSeek"],
+    "evidence_complete": true
+  },
+  "baseline": {
+    "baseline_before_optimization": true,
+    "channels_in_baseline": 3,
+    "appearance_rate_recorded": true
+  },
+  "optimization": {
+    "based_on_measured_only": true,
+    "mechanism_vs_channel_separated": true,
+    "actions_count": 3
+  },
+  "veto": {
+    "config_path": ".agents/ai-seo-cn-veto.yaml",
+    "in_machine_readable_config": true,
+    "entries": 3,
+    "all_decidable": true,
+    "all_have_basis": true
+  },
+  "retest": {
+    "same_question_set": true,
+    "interval_weeks": 3,
+    "evidence_archived": true,
+    "decline_attributed": true
+  }
+}
